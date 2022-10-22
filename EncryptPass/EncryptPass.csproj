@@ -2,9 +2,14 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <Authors>Timmy</Authors>
+    <PackageReleaseNotes>2 way of encryption password</PackageReleaseNotes>
+    <FileVersion>$(Assembly version)</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
